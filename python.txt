@@ -1,0 +1,62 @@
+http://www.buggybread.com/2014/06/java-coding-interview-questions-and.html
+http://www.instanceofjava.com/2015/08/java-interview-questions-on-main-method.html
+http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/
+
+http://zetcode.com/
+
+http://www.bigactivities.com/index.php
+https://www.checkyourmath.com/index.php
+https://www.digminecraft.com/index.php
+https://www.techonthenet.com/mysql/index.php
+http://www.quickanddirtytips.com/education/math
+
+python websites and tutorials
+***		http://askpython.com/
+***		http://www.afterhoursprogramming.com/tutorial/Python/Variables/
+****	http://www.alan-g.me.uk/l2p/index.htm
+***		http://www.discoversdk.com/blog/10-interesting-python-modules-to-learn-in-2016
+*****	https://pythonspot.com/en/
+****	http://thepythonguru.com/
+*****	http://www.learnpython.org/en/Basic_Operators
+
+for scientist
+**		http://www.onlamp.com/pub/a/python/2002/10/17/biopython.html
+*****	http://openbookproject.net/thinkcs/python/english2e/
+
+https://py.checkio.org/
+
+http://mathbits.com/MathBits/Java/DataBasics/Printing.htm
+http://www.computerhope.com/chtop10.htm
+
+http://crunchify.com/top-10-java-interview-questions-answers-must-read-before-appearing-for-any-java-interview/
+
+http://libweb.surrey.ac.uk/library/skills/Number%20Skills%20Leicester/index.htm
+
+http://venturebeat.com/2015/03/19/30-tech-skills-that-will-get-you-a-110000-plus-salary/
+
+https://www.udacity.com/wiki/ud032?_ga=1.138276592.1304109578.1466579963#!#datasets-used-in-this-course
+http://kevinvo.xyz/learning/
+https://gramener.com/
+http://www.epochconverter.com/days/2016
+http://www.epochconverter.com/daynumbers
+http://study.com/academy/course/statistics-course.html
+
+https://www.youtube.com/user/khanacademy
+https://www.youtube.com/channel/UCiGxYawhEp4QyFcX0R60YdQ
+
+select 
+    t1.id , 
+    t1.name ,
+    t3.id ,
+    t3.salary 
+  
+from 
+    students as t1
+natural join 
+    packages as t3 order by t3.salary desc
+	
+	SELECT DISTINCT a.X, a.Y
+FROM Functions AS a
+INNER JOIN Functions AS b
+ON a.X = b.Y AND b.X = a.Y AND a.%%physloc%% <> b.%%physloc%% AND a.X <= a.Y
+ORDER BY a.X, a.Y
